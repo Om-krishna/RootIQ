@@ -29,6 +29,19 @@ Notification (Console / Webhook / Chat)
 
 
 ---
+## 🛠️ Tech Stack
+
+Language: Python
+
+AI Model: OpenAI-compatible LLM
+
+Notifications: Webex, Slack, or webhook integration
+
+Storage (optional): Local / DynamoDB
+
+Deployment: AWS Lambda or Docker
+
+
 
 ## 🧩 Getting Started
 
@@ -49,5 +62,11 @@ WEBHOOK_URL=your_webhook_here
 #Run the application
 export PYTHONPATH=$(pwd)
 python -m src.lambdas.triage.handler
+
+
+
+
+
+
 
 
